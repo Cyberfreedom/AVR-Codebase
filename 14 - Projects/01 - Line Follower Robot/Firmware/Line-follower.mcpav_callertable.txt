@@ -1,0 +1,11 @@
+main
+	initDDR
+	initLib
+		Lcd_Init
+			Delay_5500us
+			Delay_1us
+		UART1_Init
+	UART1_Data_Ready
+	UART1_Read
+	UART1_Write
+	__CC2DW
